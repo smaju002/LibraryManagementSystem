@@ -19,6 +19,8 @@ public class StudentController {
 	@Autowired
 	public StudentRepository stuRepository;
 	
+	
+	//Get Method
 	@RequestMapping("/library")
 	public String WelcomeLibrary(){
 		return "Welcome Students to the Online Library Management System!!!";
